@@ -1,6 +1,10 @@
 ---
 layout: home
-title: Nguyễn Vũ Bảo
+author_profile: true
+title: "Nguyễn Vũ Bảo"
+header:
+  overlay_color: "#111827"
+  overlay_filter: "0.35"
+  caption: "AI Engineer Blog"
+excerpt: "Chia sẻ về AI, NLP, LLM, RAG, MLOps và các dự án thực tế."
 ---
-
-Xin chào, mình là Nguyễn Vũ Bảo, một AI Engineer quan tâm đến NLP, LLM, MLOps và ứng dụng AI vào sản phẩm thực tế.
