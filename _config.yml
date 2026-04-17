@@ -1,0 +1,5 @@
+title: Blog của NV Bao
+description: ...
+url: "https://nvbao117.github.io"
+baseurl: ""  # Rỗng để bỏ /nvbao117/
+theme: minima
