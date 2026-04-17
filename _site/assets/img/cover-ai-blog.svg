@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#020617"/>
+  <circle cx="970" cy="140" r="120" fill="#0ea5e9" opacity="0.14"/>
+  <circle cx="1060" cy="470" r="180" fill="#22d3ee" opacity="0.1"/>
+  <rect x="80" y="76" width="1040" height="478" rx="30" fill="#0f172a" stroke="#1e293b"/>
+  <text x="140" y="220" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="62" font-weight="700">AI Engineer Blog</text>
+  <text x="140" y="300" fill="#7dd3fc" font-family="Arial, sans-serif" font-size="30">LLM • RAG • Agents • Evaluation • Deployment</text>
+  <text x="140" y="380" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Ghi chép về hệ thống AI thực chiến của Vũ Bảo Nguyễn</text>
+</svg>
