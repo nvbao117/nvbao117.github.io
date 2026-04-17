@@ -1,39 +1,82 @@
-title: Nguyễn Vũ Bảo
-name: Nguyễn Vũ Bảo
-description: Blog và portfolio AI Engineer
+lang: vi-VN
+timezone: Asia/Ho_Chi_Minh
+
+title: AI Engineer Blog
+tagline: Ghi chép về AI Engineering, LLMOps và hệ thống AI thực chiến
+
+description: >-
+  Blog cá nhân của Vũ Bảo Nguyễn, chia sẻ về AI Engineer, LLM, RAG,
+  AI Agents, deployment, evaluation và kinh nghiệm xây dựng sản phẩm AI.
+
 url: "https://nvbao117.github.io"
 baseurl: ""
 
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+github:
+  username: nvbao117
 
-plugins:
-  - jekyll-include-cache
+twitter:
+  username:
 
-author:
-  name: "Nguyễn Vũ Bảo"
-  avatar: "/assets/images/avatar.jpg"
-  bio: "AI Engineer | NLP | LLM | RAG | MLOps"
-  location: "Hồ Chí Minh, Việt Nam"
+social:
+  name: Vũ Bảo Nguyễn
+  email: vubaonguyen2809@gmail.com
   links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/nvbao117"
+    - https://github.com/nvbao117
 
-minimal_mistakes_skin: "dark"
+avatar: /assets/img/avatar-ai.svg
+
+theme_mode: dual
+
+comments:
+  provider:
+
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
+baidu_site_verification:
+
+paginate: 10
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
+      layout: post
+      author: Vũ Bảo Nguyễn
+      toc: true
       comments: false
-      share: true
-  - scope:
-      path: ""
-      type: pages
+      permalink: /posts/:title/
+  -
+    scope:
+      path: _tabs
+      type: tabs
     values:
-      layout: single
-      author_profile: true
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile.lock
+  - node_modules
+  - vendor
