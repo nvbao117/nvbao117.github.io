@@ -2,7 +2,7 @@ title: Nguyễn Vũ Bảo | AI Engineer
 description: Blog và portfolio về Machine Learning, NLP, LLM, MLOps.
 url: "https://nvbao117.github.io"
 baseurl: ""
-theme: minima
+theme: minimal-mistakes-jekyll
 
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
