@@ -1,5 +1,25 @@
-title: Blog của NV Bao
-description: ...
+title: Nguyễn Vũ Bảo | AI Engineer
+description: Blog và portfolio về Machine Learning, NLP, LLM, MLOps.
 url: "https://nvbao117.github.io"
-baseurl: ""  # Rỗng để bỏ /nvbao117/
+baseurl: ""
 theme: minima
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
