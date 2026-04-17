@@ -1,25 +1,39 @@
-title: Nguyễn Vũ Bảo | AI Engineer
-description: Blog và portfolio về Machine Learning, NLP, LLM, MLOps.
+title: Nguyễn Vũ Bảo
+name: Nguyễn Vũ Bảo
+description: Blog và portfolio AI Engineer
 url: "https://nvbao117.github.io"
 baseurl: ""
-theme: minimal-mistakes-jekyll
 
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title/
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Nguyễn Vũ Bảo"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "AI Engineer | NLP | LLM | RAG | MLOps"
+  location: "Hồ Chí Minh, Việt Nam"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/nvbao117"
+
+minimal_mistakes_skin: "dark"
 
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
   - scope:
       path: ""
-      type: projects
+      type: pages
     values:
-      layout: page
+      layout: single
+      author_profile: true
