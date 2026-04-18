@@ -1,0 +1,99 @@
+- name: AI Engineering
+  description: Xây dựng hệ thống AI production — LLM apps, RAG, agents, evaluation.
+  icon: fas fa-robot
+
+- name: LLM
+  description: Large Language Models — fine-tuning, prompting, inference.
+  icon: fas fa-comment-dots
+
+- name: RAG
+  description: Retrieval-Augmented Generation — semantic search, vector DB, chunking.
+  icon: fas fa-search
+
+- name: Agents
+  description: AI Agents — tool-calling, workflow, orchestration.
+  icon: fas fa-network-wired
+
+- name: Prompt
+  description: Prompt engineering techniques và pattern.
+  icon: fas fa-terminal
+
+- name: Evaluation
+  description: Đánh giá chất lượng hệ thống AI — benchmarks, LLM-as-judge, observability.
+  icon: fas fa-chart-line
+
+- name: Machine Learning
+  description: Thuật toán ML cơ bản đến nâng cao.
+  icon: fas fa-brain
+
+- name: Fundamentals
+  description: Thuật toán nền tảng — Linear/Logistic Regression, Tree, SVM...
+  icon: fas fa-cube
+
+- name: Deep Learning
+  description: Neural networks — CNN, RNN, Transformer, diffusion.
+  icon: fas fa-project-diagram
+
+- name: NLP
+  description: Natural Language Processing.
+  icon: fas fa-language
+
+- name: Computer Vision
+  description: Thị giác máy — classification, detection, segmentation.
+  icon: fas fa-eye
+
+- name: Time Series
+  description: Dự báo chuỗi thời gian.
+  icon: fas fa-chart-area
+
+- name: MLOps
+  description: Deployment, monitoring, pipeline cho ML/AI production.
+  icon: fas fa-server
+
+- name: Deployment
+  description: Serving models — Docker, K8s, FastAPI, vLLM, Triton.
+  icon: fas fa-rocket
+
+- name: Pipeline
+  description: Training/inference pipeline — Airflow, Argo, Kubeflow.
+  icon: fas fa-stream
+
+- name: Monitoring
+  description: Observability, model drift, data drift, alerting.
+  icon: fas fa-heartbeat
+
+- name: Infrastructure
+  description: Cloud, GPU, Kubernetes, IaC.
+  icon: fas fa-cloud
+
+- name: CI/CD
+  description: Automation pipeline cho ML.
+  icon: fas fa-sync-alt
+
+- name: Data
+  description: Data engineering, analysis, quality.
+  icon: fas fa-database
+
+- name: Engineering
+  description: ETL/ELT, data pipeline, warehouse.
+  icon: fas fa-cogs
+
+- name: Analysis
+  description: EDA, visualization, insights.
+  icon: fas fa-chart-bar
+
+- name: Quality
+  description: Data validation, cleaning, testing.
+  icon: fas fa-check-double
+
+- name: Tools
+  description: Review công cụ, framework, thư viện.
+  icon: fas fa-toolbox
+
+- name: Career
+  description: Learning path, roadmap, kinh nghiệm phát triển sự nghiệp.
+  icon: fas fa-user-graduate
+
+- name: Blog
+  description: Meta, giới thiệu, ghi chú ngoài chuyên môn.
+  icon: fas fa-pen-fancy

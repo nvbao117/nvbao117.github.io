@@ -1,8 +1,8 @@
 ---
 title: Chào mừng đến với AI Engineer Blog
 date: 2026-04-17 13:44:00 +0700
-categories: [AI, Blog]
-tags: [ai-engineer, llm, rag, agents]
+categories: [Blog]
+tags: [intro, announcement, ai-engineer]
 pin: true
 image:
   path: /assets/img/cover-ai-blog.svg

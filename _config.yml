@@ -7,7 +7,7 @@ title: AI Engineer Blog
 tagline: Ghi chép về AI Engineering, LLMOps và hệ thống AI thực chiến
 
 description: >-
-  Blog cá nhân của Vũ Bảo Nguyễn, chia sẻ về AI Engineer, LLM, RAG,
+  Blog cá nhân của Nguyễn Vũ Bảo, chia sẻ về AI Engineer, LLM, RAG,
   AI Agents, deployment, evaluation và kinh nghiệm xây dựng sản phẩm AI.
 
 url: "https://nvbao117.github.io"
@@ -20,7 +20,7 @@ twitter:
   username:
 
 social:
-  name: Vũ Bảo Nguyễn
+  name: Nguyễn Vũ Bảo
   email: vubaonguyen2809@gmail.com
   links:
     - https://github.com/nvbao117
@@ -39,6 +39,22 @@ yandex_site_verification:
 baidu_site_verification:
 
 paginate: 10
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 kramdown:
   syntax_highlighter: rouge
@@ -53,6 +69,10 @@ collections:
   tabs:
     output: true
     sort_by: order
+  projects:
+    output: true
+    sort_by: order
+    permalink: /projects/:name/
 
 defaults:
   -
@@ -61,7 +81,6 @@ defaults:
       type: posts
     values:
       layout: post
-      author: Vũ Bảo Nguyễn
       toc: true
       comments: false
       permalink: /posts/:title/
@@ -72,6 +91,13 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  -
+    scope:
+      path: _projects
+      type: projects
+    values:
+      layout: page
+      toc: true
 
 sass:
   style: compressed
@@ -82,3 +108,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - scripts
+  - "*.ps1"
+  - "*.sh"
